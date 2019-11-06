@@ -13,33 +13,3 @@ main {
   height: 600px;
   margin: auto;
 }
-
-row {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0;
-}
-
-column {
-  margin-bottom: 0;
-}
-
-#column-1 {
-  display: block;
-  order: 1;
-  width: 40px;
-  height: 100px;
-  background-color: white;
-  margin: 0;
-}
-
-#column-2 {
-  display: inline-block;
-  order: 1;
-  width: 100px;
-  height: 300px;
-  background-color: white;
-  margin: 0;
-}
